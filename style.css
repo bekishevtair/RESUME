@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+body {
+    background-color: rgb(72, 81, 82);
+    color: azure;  
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    font: normal 20px 'Play' sans-serif
+}
+header {
+    padding-right: 2%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active { 
+    color: rgb(151, 151, 151);
+}
+.card   {   
+    padding: 5px 30px 30px 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: azure;
+    margin-bottom: 5px;
+}
+.bg-yellow {
+    background-color: rgb(131, 131, 105);
+    
+}
+.bg-red {
+    background-color: rgb(122, 103, 103);
+    
+}
+.bg-green {
+    background-color: rgb(101, 107, 96);
+    
+}
+
+.avatar {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    /*box-shadow: 4px 4px 20px rgb(45, 49, 49);*/
+
+}
+.info {
+
+    margin-bottom: 50px;
+    display: flex;
+}
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .jobtable {
+        min-width: none;
+    }
+}
+.info-text {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.info-text > .quote {
+    font-style: italic;
+}
+.info-text a {
+    font-size: 14px;
+}
+.info-text h1 {
+    margin-top: 1px;
+}
+
+
+.container {    
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.jobtable {
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(121, 127, 128);
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.jobtable td {  
+    padding: 15px 50px 15px 50px;
+}
+.jobtable td:nth-child(2), 
+.jobtable td:nth-child(3) {
+    color: rgb(70, 70, 70);
+    font-size: 18px;
+}
+/*.jobtable tr:nth-child(odd) {
+    background: red;
+}*/
+.box-model > div {    
+    background-color: rgb(60, 69, 70);
+    height: 300px;
+    width: 32%;
+    float: left ;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    margin-bottom: 100px;
+    margin: 5px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    /*box-shadow: 0px 0px 20px rgb(45, 49, 49);*/
+}
+.contact h2 {
+    text-align: center;
+
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+}
+.form-group input, textarea  {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    color: white;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+
+}
+::placeholder {
+    color: rgb(129, 129, 129);
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+.btn  {
+    color: azure;
+    background: rgb(56, 59, 53);
+    font-family: inherit;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover  {
+    opacity: 50%;
+}
+/*Position*/
+/*.position {
+    position: relative;
+    border: 2px solid black;
+    margin-top: 40px;
+    height: 300px;
+}
+.box {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    left: 0;
+}*/
